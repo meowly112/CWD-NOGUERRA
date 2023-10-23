@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Material Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Font awesome -->
+    <script src="https://kit.fontawesome.com/b3ddf2a703.js" crossorigin="anonymous"></script>
+    <!-- Font Awesome cdnjs -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"integrity="sha512-z3gLpd7yknf1oNbCzqRKc4qor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+     <!-- Compiled and minified CSS -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+     <!-- Custom CSS -->
+     <link rel="stylesheet" href="styles.css">
+    <title>Navbar & Sidenav</title>
+</head>
+<body>
+    <div class="navbar-fixed">
+      <nav class="pink"> 
+        <div class="container">
+         <div class="nav-wrapper">
+             <a href="https://www.instagram.com/" class="brand-logo"
+           target="_blank">
+                    <i class="fa-brands fa-instagram"></i>
+             </a>
+             <a href="" class="sidenav-trigger" data-target="mobile-demo">
+              <i class="fa-solid fa-bars"></i>
+             </a>
+             <ul id="nav-mobile" class="right hide-on-med-and-down">
+                <li class="active">
+                  <a href="https://about.instagram.com/" target="_blank">About</a>
+                </li>
+                <li>
+                 <a href="https://about.instagram.com/blog" target="_blank">Blog</a>
+               </li>
+               <li>
+                 <a href="https://www.threads.net/login" target="_blank">Threads</a>
+               </li>
+               <li>
+                <a href="" class="dropdown-trigger" data-target="dropdown1">
+                  <i class="material-icons">arrow_drop_down</i>
+                </a>
+               </li>
+             </ul>
+            </div>
+
+            <!-- Dropdown Structure -->
+            <ul id="dropdown1" class="dropdown-content">
+              <li>
+                <a href="#!">One</a>
+              </li>
+              <li>
+                <a href="#!">Two</a>
+              </li>
+              <li>
+                <div class="divider"></div>
+                <a href="#!">Three</a>
+              </li>
+            </ul>
+            <div class="nav-content">
+              <ul class="tabs tabs-transparent">
+                  <li class="tab">
+                    <a href="#test1">Test 1</a>
+                  </li>
+                  <li class="tab">
+                    <a href="#test2">Test 2</a>
+                    </li>
+                  <li class="tab">
+                    <a href="#test3">Test 3</a>
+                      </li>
+                    </ul>
+            </div>
+          </div>
+      </nav>
+    </div>
+    <h1 class="center orange-text">"Social Media Apps"</h1>
+    <div class="divider"></div>
+    <br>
+    <div class="container">
+        <p>Social media refers to online platforms and technologies that allow people to create, share, and exchange information and media content in virtual communities. It includes platforms like Facebook, Twitter, Instagram, YouTube, and more, enabling communication and content sharing with a wide audience.</p>
+
+        <h3 class="red-text text-lighten-2">Youtube</h3>
+        <p>YouTube is a website where people can share and watch videos on all kinds of topics, from music and how-to guides to entertainment and more. It's a place where you can find videos and even make your own to share with others.</p>
+
+        <nav class="light-red"> 
+           <div class="container">
+            <div class="nav-wrapper">
+                <a href="https://www.youtube.com/" class="brand-logo"
+              target="_blank">
+                    <i class="fa-brands fa-youtube"></i>
+                </a>
+                <ul id="nav-mobile" class="right hide-on-med-and-down">
+                   <li>
+                     <a href="https://www.youtube.com/feed/trending?bp=6gQJRkVleHBsb3Jl" target="_blank">Trending</a>
+                   </li>
+                   <li>
+                    <a href="https://www.youtube.com/channel/UC-9-kyTW8ZkZNDHQJ6FgpwQ" target="_blank">Music</a>
+                  </li>
+                  <li>
+                    <a href="https://www.youtube.com/feed/storefront?bp=ogUCKAI%3D" target="_blank">Movies</a>
+                  </li>
+                </ul>
+               </div>
+           </div>
+        </nav>
+        <br>
+        <h3 class="blue-text">Facebook</h3>
+        <p>Facebook is a website where you can make a profile, connect with friends, and share posts, photos, and messages. It's a place to stay in touch and find interesting things from people and pages you like.</p>
+        <nav class="light-blue"> 
+          <div class="container">
+           <div class="nav-wrapper">
+               <a href="https://www.facebook.com/" class="brand-logo"
+             target="_blank">
+                    <i class="fa-brands fa-facebook"></i>
+               </a>
+               <ul id="nav-mobile" class="right hide-on-med-and-down">
+                  <li>
+                    <a href="https://www.facebook.com/?filter=all&sk=h_chr" target="_blank">Feeds</a>
+                  </li>
+                  <li>
+                   <a href="https://www.facebook.com/watch/?ref=tab" target="_blank">Video</a>
+                 </li>
+                 <li>
+                   <a href="https://www.facebook.com/friends" target="_blank">Friends</a>
+                 </li>
+               </ul>
+              </div>
+          </div>
+        </nav>
+
+        <br>
+        <h3 class="black-text">Tiktok</h3>
+        <p>TikTok is a social media platform and app that allows users to create and share short video clips, often set to music. It's known for its quick, entertaining videos on a wide range of topics, including dancing, comedy, and tutorials.</p>
+        <nav class="black"> 
+          <div class="container">
+           <div class="nav-wrapper">
+               <a href="https://www.tiktok.com/en/" class="brand-logo"
+             target="_blank">
+                      <i class="fa-brands fa-tiktok"></i>
+               </a>
+               <ul id="nav-mobile" class="right hide-on-med-and-down">
+                  <li>
+                    <a href="https://www.tiktok.com/explore" target="_blank">Explore</a>
+                  </li>
+                  <li>
+                   <a href="https://www.tiktok.com/foryou" target="_blank">For you</a>
+                 </li>
+                 <li>
+                   <a href="https://www.tiktok.com/live" target="_blank">Live</a>
+                 </li>
+               </ul>
+              </div>
+          </div>
+        </nav>
+
+        <br>
+        <h3 class="green-text text-Darken-2">Spotify</h3>
+        <p>Spotify is a music streaming service that lets you listen to a vast catalog of songs and podcasts over the internet. Users can access and play music from various artists and genres on-demand, create playlists, and discover new music. It offers both free and premium subscription options.</p>
+        <nav class="green"> 
+          <div class="container">
+           <div class="nav-wrapper">
+               <a href="https://open.spotify.com/" class="brand-logo"
+             target="_blank">
+                      <i class="fa-brands fa-spotify"></i>
+               </a>
+               <ul id="nav-mobile" class="right hide-on-med-and-down">
+                  <li>
+                    <a href="https://www.spotify.com/ph-en/about-us/contact/" target="_blank">About</a>
+                  </li>
+                  <li>
+                   <a href="https://open.spotify.com/genre/podcasts-web" target="_blank">Podcasts</a>
+                 </li>
+                 <li>
+                   <a href="https://artists.spotify.com/home" target="_blank">For Artist</a>
+                 </li>
+               </ul>
+              </div>
+          </div>
+        </nav>
+
+        <h3 class="purple-text text-lighten-2">Instagram</h3>
+        <p>Instagram is a social media platform and app where users can share photos and videos with their followers. It's known for its focus on visual content and offers features like Stories, IGTV, and various filters and editing tools for enhancing photos and videos. Instagram is widely used for personal and business purposes to showcase images and engage with an audience.</p>
+        <!-- Navbar Extended -->
+        <nav class="purple nav-extended"> 
+          <div class="container">
+           <div class="nav-wrapper">
+               <a href="https://www.instagram.com/" class="brand-logo"
+             target="_blank">
+                      <i class="fa-brands fa-instagram"></i>
+               </a>
+               <a href="" class="sidenav-trigger" data-target="mobile-demo">
+                <i class="fa-solid fa-bars"></i>
+               </a>
+               <ul id="nav-mobile" class="right hide-on-med-and-down">
+                  <li class="active">
+                    <a href="https://about.instagram.com/" target="_blank">About</a>
+                  </li>
+                  <li>
+                   <a href="https://about.instagram.com/blog" target="_blank">Blog</a>
+                 </li>
+                 <li>
+                   <a href="https://www.threads.net/login" target="_blank">Threads</a>
+                 </li>
+               </ul>
+              </div>
+              <div class="nav-content">
+                <ul class="tabs tabs-transparent">
+                    <li class="tab">
+                      <a href="#test1">Test 1</a>
+                    </li>
+                    <li class="tab">
+                      <a href="#test2">Test 2</a>
+                      </li>
+                    <li class="tab">
+                      <a href="#test3">Test 3</a>
+                        </li>
+                      </ul>
+              </div>
+            </div>
+        </nav>
+
+        <!-- Sidenav structure -->
+        <ul class="sidenav" id="mobile-demo">
+          <li class="active">
+            <a href="https://about.instagram.com/" target="_blank">About</a>
+          </li>
+          <li>
+           <a href="https://about.instagram.com/blog" target="_blank">Blog</a>
+         </li>
+         <li>
+           <a href="https://www.threads.net/login" target="_blank">Threads</a>
+         </li>
+       </ul>
+
+        <!-- Tabs structure -->
+        <div class="row">
+          <div class="col s12" id="test1">
+             <div class="card">
+               <div class="card-image">
+                <img src="images/cat 1.webp" alt="" class="responsive-img">
+               </div>
+             </div>
+          </div>
+          <div class="col s12" id="test2">
+            <div class="card">
+              <div class="card-image">
+               <img src="images/cat 2.jpg" alt="" class="responsive-img">
+              </div>
+            </div>
+         </div>
+         <div class="col s12" id="test3">
+          <div class="card">
+            <div class="card-image">
+             <img src="images/cat 3.jpg" alt="" class="responsive-img">
+            </div>
+          </div>
+       </div>
+        </div>
+    </div>
+ 
+
+    <div style="height: 1000px"></div>
+
+
+    <!-- Jquery CDN -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+     <!-- Compiled and minified JavaScript -->
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+     <script>
+      $(document).ready(function() {
+        // Tabs Init
+            $('.tabs').tabs();
+        // Sidenav Init
+            $('.sidenav').sidenav({
+              edge: 'left',
+              inDuration: 1000,
+              outDuration: 1000
+            });
+
+        // Dropdown Init
+         $('.dropdown-trigger').dropdown();
+      });
+     </script>
+
+</body>
+</html>
